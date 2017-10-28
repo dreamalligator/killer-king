@@ -1,6 +1,6 @@
 # Killer King
 
-built with [LÖVE](https://love2d.org)
+built with [LÖVE](https://love2d.org).
 
 ## For Developers
 
@@ -10,6 +10,8 @@ cd ./killer-king
 zip -9 -r killer-king.love .
 love killer-king.love
 ```
+
+Alternatively, the `makefile`'s default behavior is to re-bundle for distribution and open the love file. If this is what you want, simply run `make`.
 
 ## License
 
